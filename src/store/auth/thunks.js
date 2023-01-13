@@ -59,7 +59,7 @@ export const startLogout = () => {
         
         await logoutFirebase();
 
-        dispatch( logout() );
+        dispatch( logout({}) );
 
     }
 }
